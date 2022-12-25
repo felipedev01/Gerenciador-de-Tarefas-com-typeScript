@@ -1,8 +1,15 @@
 import styles from './Header.module.css'
+import RocketLogo from '../assets/rocket.svg'
 
 export function Header(){
 
     return(
-        <h1 className={styles.Header}>To Do List</h1>
+        <header className={styles.Header}>
+            <div className={styles.boxLogo}>
+             <img src="/src/assets/rocket.svg" alt="RocketLogo" />
+             <span>to</span>
+             <span>do</span>
+            </div>
+        </header>
     )
 }

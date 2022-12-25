@@ -1,3 +1,31 @@
 .Header{
-    background:black;
+    background:var(--gray-700);
+    color:white;
+    height:12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxLogo{
+    height:3rem;
+    width:7.875rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+
+}.boxLogo >span{
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-top: 0.1rem;
+    color:var(--purpleDark);
+  
+}.boxLogo >img{
+    height:2.25rem;
+    margin-right: 0.75rem;
+    margin-top: 0.625rem;
+}span:nth-child(2){
+
+    color:var(--blue);
+
 }

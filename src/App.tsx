@@ -10,8 +10,8 @@ export function App() {
   return (
     <div>
 
-      <Header></Header>
-       <h1>Ola Mundo</h1>
+      <Header/>
+      
       <p>dggdhdd dhdjdjkdkdk dkkdjjdhdjs ddkjdjdnd jdjd djkjdjd djjhd ddngvhskd</p>
     </div>
    
