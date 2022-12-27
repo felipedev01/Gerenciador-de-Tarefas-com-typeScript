@@ -1,4 +1,5 @@
 import styles from './NewTask.module.css'
+import plusLogo  from '../assets/plus.svg'
 
 export function NewTask(){
 
@@ -7,7 +8,9 @@ export function NewTask(){
       <textarea
                 placeholder="Adicione uma nova tarefa"
                  />
-        <button type="submit"> Criar</button>
+        <button type="submit"> Criar
+         <img src={plusLogo} alt="plusLogo" />
+        </button>
       </form>
 
     )

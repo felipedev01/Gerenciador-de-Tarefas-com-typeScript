@@ -25,6 +25,16 @@ gap: 0.5rem;
     border:none;
     border-radius: 8px;
     margin-top: 0.0625rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    font-style: normal;
+    color:var(--gray-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 
     
 }
