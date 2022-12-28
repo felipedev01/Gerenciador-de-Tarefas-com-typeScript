@@ -1,5 +1,33 @@
 .displayTaskContainer{
-    width:46rem;
+    //width:46rem;
     height:28.1875rem;
     background: gray;
+}.displayTaskContainer > header {
+    height:2.6875rem;
+    background:yellow;
+    display: flex;
+    justify-content: space-between;
+}.createdTaskText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color:var(--blue);
+}.createdTaskCount{
+    color: var(--gray-200)!important;
+}.doneTasksText{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    font-style: normal;
+    color:var(--purple);
+}.doneTasksStatus{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    font-family: 'Inter';
+    color:var(--gray-200)!important;
 }
