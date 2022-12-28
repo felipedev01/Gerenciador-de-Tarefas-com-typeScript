@@ -16,6 +16,20 @@
     color:var(--blue);
 }.createdTaskCount{
     color: var(--gray-200)!important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    font-family: 'Inter';
+    margin-left:0.5rem;
+    padding-top: 0.0625rem;
+    width: 24px;
+    height: 19px;
+    background:var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    margin:auto;
+
 }.doneTasksText{
     font-family: 'Inter';
     font-weight: 700;
@@ -30,4 +44,7 @@
     line-height: 0.9375rem;
     font-family: 'Inter';
     color:var(--gray-200)!important;
+    padding-right: 0.5rem;
+    padding-top: 0.0625rem;
+    margin-left:0.5rem;
 }
