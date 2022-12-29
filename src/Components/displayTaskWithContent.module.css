@@ -1,10 +1,10 @@
 .displayTaskContainer{
-    //width:46rem;
+    margin-top:4rem;
     height:28.1875rem;
     background: gray;
 }.displayTaskContainer > header {
     height:2.6875rem;
-    background:yellow;
+    background:var(--gray-600);
     display: flex;
     justify-content: space-between;
 }.createdTaskText{
@@ -29,6 +29,7 @@
     padding: 0.125rem 0.5rem;
     border-radius: 999px;
     margin:auto;
+    margin-left:0.5rem;
 
 }.doneTasksText{
     font-family: 'Inter';
@@ -47,4 +48,10 @@
     padding-right: 0.5rem;
     padding-top: 0.0625rem;
     margin-left:0.5rem;
+    width: 25px;
+    height: 19px;
+    background:var(--gray-400);
+    border-radius: 999px;
+    padding: 0.125rem 0.5rem;
+
 }
