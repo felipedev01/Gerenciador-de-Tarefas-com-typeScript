@@ -54,4 +54,15 @@
     border-radius: 999px;
     padding: 0.125rem 0.5rem;
 
+}.taskList li{
+    height:4.5rem;
+    padding-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    padding-right: 1.345rem;
+    padding-left:1.20437rem;
+    display:flex;
+    
+}.taskList > img{
+    height:2.25rem; 
 }
