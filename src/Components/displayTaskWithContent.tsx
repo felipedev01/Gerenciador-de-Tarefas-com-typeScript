@@ -1,6 +1,7 @@
 
 import styles from './displayTaskWithContent.module.css'
 import {Trash} from 'phosphor-react'
+import checkBox from '../assets/checkBox.svg'
 
 export function DisplayTaskWithContent(){
 
@@ -19,7 +20,9 @@ export function DisplayTaskWithContent(){
             </header>
             <ul className={styles.taskList}>
                 <li>
-                    <input type="checkbox" id="" />
+                    <button className={styles.checkBoxButton}>
+                        <img src={checkBox} alt="Botão checkbox" />
+                    </button>
                     <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
                     <Trash/>
                     </li>

@@ -65,4 +65,15 @@
     
 }.taskList > img{
     height:2.25rem; 
+}.checkBoxButton{
+    Width: 1.090625rem;
+    Height: 1.090625rem;
+    border-style: none;
+    background: transparent;
+    margin-right: 0.954375rem;
+    margin-top: 0.204375rem;
+}.checkBoxButton > img{
+    Width: 1.090625rem;
+    Height: 1.090625rem;
+    
 }
