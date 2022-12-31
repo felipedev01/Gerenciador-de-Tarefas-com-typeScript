@@ -24,7 +24,10 @@ export function DisplayTaskWithContent(){
                         <img src={checkBox} alt="Botão checkbox" />
                     </button>
                     <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
-                    <Trash/>
+
+                    <button className={styles.deleteButton}>
+                    <Trash size={24}/>
+                    </button>
                     </li>
                 <li>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</li>
                 <li>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</li>

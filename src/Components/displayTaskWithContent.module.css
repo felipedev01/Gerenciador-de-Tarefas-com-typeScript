@@ -76,4 +76,22 @@
     Width: 1.090625rem;
     Height: 1.090625rem;
     
+}.taskList li p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height:1.4;
+    font-style: normal;
+    color:var(--gray-100);
+}.deleteButton{
+    background-color: transparent;
+    color:var(--gray-400);
+    height:1.5rem;
+    border: none;
+    line-height: 0;
+    cursor: pointer;
+    margin-right:-0.3125rem;
+    margin-top:0.3125rem;
+    margin-left:0.8125rem;
+
 }
