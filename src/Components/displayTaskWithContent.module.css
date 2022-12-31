@@ -1,7 +1,6 @@
 .displayTaskContainer{
     margin-top:4rem;
     height:28.1875rem;
-    background: gray;
 }.displayTaskContainer > header {
     height:2.6875rem;
     background:var(--gray-600);
@@ -62,6 +61,8 @@
     padding-right: 1.345rem;
     padding-left:1.20437rem;
     display:flex;
+    background:var(--gray-500);
+    margin-bottom:0.75rem;
     
 }.taskList > img{
     height:2.25rem; 
@@ -85,7 +86,7 @@
     color:var(--gray-100);
 }.deleteButton{
     background-color: transparent;
-    color:var(--gray-400);
+    color:var(--gray-300);
     height:1.5rem;
     border: none;
     line-height: 0;
