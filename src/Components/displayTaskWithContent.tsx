@@ -26,7 +26,7 @@ export function DisplayTaskWithContent(){
                     <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
 
                     <button className={styles.deleteButton}>
-                    <Trash size={24}/>
+                    <Trash size={22.5}/>
                     </button>
                     </li>
                     <li>
@@ -36,7 +36,7 @@ export function DisplayTaskWithContent(){
                     <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
 
                     <button className={styles.deleteButton}>
-                    <Trash size={24}/>
+                    <Trash size={22.5}/>
                     </button>
                     </li>
                     <li>
@@ -46,7 +46,7 @@ export function DisplayTaskWithContent(){
                     <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
 
                     <button className={styles.deleteButton}>
-                    <Trash size={24}/>
+                    <Trash size={22.5}/>
                     </button>
                     </li>
                     <li>
@@ -56,7 +56,7 @@ export function DisplayTaskWithContent(){
                     <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
 
                     <button className={styles.deleteButton}>
-                    <Trash size={24}/>
+                    <Trash size={22.5}/>
                     </button>
                     </li>
                     <li>
@@ -66,7 +66,7 @@ export function DisplayTaskWithContent(){
                     <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
 
                     <button className={styles.deleteButton}>
-                    <Trash size={24}/>
+                    <Trash size={22.5}/>
                     </button>
                     </li>
                 
