@@ -20,7 +20,6 @@ export function App() {
 
 
      <main className={styles.centralBox}>
-     <NewTask/>
       
       <DisplayTask/>
      
