@@ -89,7 +89,13 @@
     cursor: pointer;
     margin-left:0.8125rem;
 
-}.taskDone p{
+}.deleteButton:Hover{
+    color:var(--danger);
+    transition:0.3s;
+}
+
+
+.taskDone p{
     font-family: 'Inter';
     font-weight: 400;
     font-size: 0.875rem;

@@ -33,8 +33,11 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    cursor:pointer;
 
     
+}.newTaskBox >button:Hover{
+    background:var(--blue);
+    transition:0.3s;
 }
-
 
