@@ -1,4 +1,5 @@
 import { DisplayTaskWithContent } from "./displayTaskWithContent";
+import {DisplayTaskEmpty } from "./displayTaskEmpty";
 import styles from './displayTask.module.css'
 import { useState } from 'react'
 
@@ -24,11 +25,24 @@ export function DisplayTask(){
 
             {
       taskList.map(task=>{
-
+   
+        if(taskList.length==0){
         return(
+
+          
           <DisplayTaskWithContent/>
 
         )
+        }else{
+
+          return(
+          
+
+            <DisplayTaskEmpty/>
+          )
+          
+
+        }
       })
 
 

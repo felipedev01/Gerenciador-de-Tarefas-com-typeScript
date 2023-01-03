@@ -1,0 +1,118 @@
+.displayTaskContainer{
+    margin-top:4rem;
+    height:28.1875rem;
+}.displayTaskContainer > header {
+    height:2.6875rem;
+    background:var(--gray-600);
+    display: flex;
+    justify-content: space-between;
+}.createdTaskText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color:var(--blue);
+}.createdTaskCount{
+    color: var(--gray-200)!important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    font-family: 'Inter';
+    margin-left:0.5rem;
+    padding-top: 0.0625rem;
+    width: 24px;
+    height: 19px;
+    background:var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    margin:auto;
+    margin-left:0.5rem;
+
+}.doneTasksText{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    font-style: normal;
+    color:var(--purple);
+}.doneTasksStatus{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    font-family: 'Inter';
+    color:var(--gray-200)!important;
+    padding-right: 0.5rem;
+    padding-top: 0.0625rem;
+    margin-left:0.5rem;
+    width: 25px;
+    height: 19px;
+    background:var(--gray-400);
+    border-radius: 999px;
+    padding: 0.125rem 0.5rem;
+
+}.taskList li{
+    height:4.5rem;
+    padding-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    padding-right: 1.345rem;
+    padding-left:1.20437rem;
+    display:flex;
+    background:var(--gray-500);
+    margin-bottom:0.75rem;
+    
+}.taskList > img{
+    height:2.25rem; 
+}.checkBoxButton{
+    Width: 1.090625rem;
+    Height: 1.090625rem;
+    border-style: none;
+    background: transparent;
+    margin-right: 0.954375rem;
+    margin-top: 0.204375rem;
+}
+
+.checkBoxButton > img{
+    Width: 1.090625rem;
+    Height: 1.090625rem;
+    
+}
+.deleteButton{
+    background-color: transparent;
+    color:var(--gray-300);
+    height:1.5rem;
+    border: none;
+    line-height: 0;
+    cursor: pointer;
+    margin-left:0.8125rem;
+
+}.deleteButton:Hover{
+    color:var(--danger);
+    transition:0.3s;
+}
+
+
+.taskDone p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height:1.4;
+    font-style: normal;
+    border-radius: 8px;
+
+    text-decoration: line-through;
+    color: var(--gray-300);
+
+}.pendingTask p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height:1.4;
+    font-style: normal;
+    color:var(--gray-100);
+    border-radius: 8px;
+
+}
