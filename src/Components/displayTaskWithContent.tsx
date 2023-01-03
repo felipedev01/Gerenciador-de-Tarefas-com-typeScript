@@ -10,7 +10,7 @@ export function DisplayTaskWithContent(){
     const[flaggedTask , setFlaggedTask]=useState(true)
 
     function handleFlagTask(){
-        setFlaggedTask(true);
+        setFlaggedTask(false);
     }
 
     return(
@@ -19,7 +19,7 @@ export function DisplayTaskWithContent(){
             <ul className={styles.taskList}>
                 <li className={flaggedTask ? styles.pendingTask : styles.taskDone}>
                     <button className={styles.checkBoxButton} onClick={handleFlagTask}>
-                        <img src={checkBox} alt="Botão checkbox" />
+                        <img src={flaggedTask ? checkBox : checkBoxDone} alt="Botão checkbox" />
                     </button>
                     <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
 
