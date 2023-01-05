@@ -5,13 +5,17 @@ import checkBox from '../assets/checkBox.svg'
 import checkBoxDone from '../assets/checkBoxDone.svg'
 import { useState } from 'react'
 
-export function DisplayTaskWithContent(){
+
+
+export function DisplayTaskWithContent(text){
 
     const[flaggedTask , setFlaggedTask]=useState(true)
 
     function handleFlagTask(){
         setFlaggedTask(false);
     }
+
+    console.log(text)
 
     return(
         

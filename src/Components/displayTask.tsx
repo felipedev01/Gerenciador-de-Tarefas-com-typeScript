@@ -7,8 +7,8 @@ import plusLogo  from '../assets/plus.svg'
 
 export function DisplayTask(){
 
-    const[taskList,setTaskList]=useState([
-        '1'
+    const[taskList,setTaskList]=useState ([
+        1,1,2
       ])
 
     const [newTask , setNewTask]=useState('')
