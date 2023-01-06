@@ -7,7 +7,7 @@ import { useState } from 'react'
 
 
 
-export function DisplayTaskWithContent(text){
+export function DisplayTaskWithContent({text}){
 
     const[flaggedTask , setFlaggedTask]=useState(true)
 
@@ -25,7 +25,7 @@ export function DisplayTaskWithContent(text){
                     <button className={styles.checkBoxButton} onClick={handleFlagTask}>
                         <img src={flaggedTask ? checkBox : checkBoxDone} alt="Botão checkbox" />
                     </button>
-                    <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
+                    <p>{text}</p>
 
                     <button className={styles.deleteButton}>
                     <Trash size={20}/>

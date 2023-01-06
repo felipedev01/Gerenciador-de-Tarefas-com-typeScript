@@ -1,26 +1,26 @@
 import { DisplayTaskWithContent } from "./displayTaskWithContent";
 import {DisplayTaskEmpty } from "./displayTaskEmpty";
 import styles from './displayTask.module.css'
-import { useState } from 'react'
 import plusLogo  from '../assets/plus.svg'
+import { FormEvent, useState } from 'react'
 
 
 export function DisplayTask(){
 
     const[taskList,setTaskList]=useState ([
-        1,1,2
+       
       ])
 
     const [newTask , setNewTask]=useState('')
 
-    function handleNewTask(){
+    function handleNewTask(event :FormEvent){
 
      console.log(event.target.value)
      const newTaskText=event.target.value
      setNewTask(newTaskText)
     }
 
-    function createNewTask(){
+    function createNewTask(event :FormEvent){
       setTaskList([...taskList,newTask])
     }
      
